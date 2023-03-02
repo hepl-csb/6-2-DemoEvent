@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{20EA7689-7DEF-4756-891C-DBA4D66CFACD}</ProjectGuid>
+    <ProjectGuid>{ADB81BA9-289D-428F-9C5F-476C3C333767}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_11_DemoEvent</RootNamespace>
@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="Car.cs" />
     <Compile Include="CarEngineEventArgs.cs" />
+    <Compile Include="ConsoleEx.cs" />
+    <Compile Include="EmergencyConnection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
